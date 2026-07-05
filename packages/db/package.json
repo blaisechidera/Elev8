@@ -1,0 +1,17 @@
+{
+  "name": "@elev8/db",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "migrate": "drizzle-kit migrate",
+    "push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "drizzle-orm": "latest",
+    "@libsql/client": "latest"
+  },
+  "devDependencies": {
+    "drizzle-kit": "latest"
+  }
+}
